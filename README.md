@@ -1,6 +1,6 @@
 # rn-starter
 
-project installation
+### Project Installation
 
 ```bash
 npm install
