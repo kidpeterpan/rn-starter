@@ -11,7 +11,7 @@ const navigator = createStackNavigator(
     List: FlatListComponent
   },
   {
-    initialRouteName: "List",
+    initialRouteName: "Home",
     defaultNavigationOptions: {
       title: "App"
     }
