@@ -1,10 +1,13 @@
 import React from 'react';
-import {View, Text, Image, StyleSheet, ShadowPropTypesIOS } from 'react-native';
+import { View, Text, Image, StyleSheet } from 'react-native';
 
 const ImageDetail = ({detail}) => {
     return (
         <View>
-            <image source={detail.imageSource} />
+            <Image 
+                source={detail.imageSource}  
+                style={{width: 500, height: 500}} 
+            />
             <Text>{detail.text}</Text>
         </View>
     );
