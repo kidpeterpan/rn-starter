@@ -19,6 +19,6 @@ const TextScreen = () => {
     );
 }
 
-const style = StyleSheet.create({});
+const styles = StyleSheet.create({});
 
 export default TextScreen;

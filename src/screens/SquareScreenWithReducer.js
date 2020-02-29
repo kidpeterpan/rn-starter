@@ -54,6 +54,6 @@ const SquareScreenWithReducer = () => {
 }
 
 
-const style = StyleSheet.create({});
+const styles = StyleSheet.create({});
 
 export default SquareScreenWithReducer;
